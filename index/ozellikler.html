@@ -1,0 +1,191 @@
+<!doctype <html>
+</html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="../stil/stil.css">
+  <meta charset="utf-8">
+  <title>C# C# Özellikleri (Al ve Ayarla)</title>
+</head>
+<body>
+  <div class="solmenu">
+    <ul>
+      <li class="baslik">C# Öğretici</li>
+      <li><a href="egitim.html">C# GİRİŞ</a></li>
+      <li><a href="giris.html">C# Giriş</a></li>
+      <li><a href="kullanmayabaslama.html">C# Kullanmaya Başlama</a></li>
+      <li><a href="sozdizimi.html">C# Sözdizimi</a></li>
+      <li><a href="cikisi.html">C# Çıkışı</a></li>
+      <li><a href="tartismalari.html">C# Tartışmaları</a></li>
+      <li><a href="degiskenleri.html">C# Değişkenleri</a></li>
+      <li><a href="veriturleri.html">C# Veri Türleri</a></li>
+      <li><a href="tipidokum.html">C# Tipi Döküm</a></li>
+      <li><a href="kullanicigirisi.html">C# Kullanıcı Girişi</a></li>
+      <li><a href="islecleri.html">C# İşleçleri</a></li>
+      <li><a href="matematik.html">C# Matematik</a></li>
+      <li><a href="dizeleri.html">C# Dizeleri</a></li>
+      <li><a href="booleans.html">C# Booleans</a></li>
+      <li><a href="egerbaska.html">C# Eğer...Başka</a></li>
+      <li><a href="anahtari.html">C# Anahtarı</a></li>
+      <li><a href="dongusirasinda.html">C# Döngü Sırasında</a></li>
+      <li><a href="donguicin.html">C# Döngü İçin</a></li>
+      <li><a href="breakcontinue.html">C# Break/Continue</a></li>
+      <li><a href="Dizileri.html">C# Dizileri</a></li>
+      <li class="baslik">C# Yöntemler</li>
+      <li><a href="yontemleri.html">C# Yöntemleri</a></li>
+      <li><a href="yontemparametreleri.html">C# Yöntem Parametreleri</a></li>
+      <li><a href="yontemiasiriyukleme.html">C# Yöntemi Aşırı Yükleme</a></li>
+      <li class="baslik">C# Sınıf</li>
+      <li><a href="oop.html">C# OOP</a></li>
+      <li><a href="siniflarnesneleri.html">C# Sınıfları/Nesneleri</a></li>
+      <li><a href="sinifuyeleri.html">C# Sınıfı Üyeleri</a></li>
+      <li><a href="olusturuculari.html">C# Oluşturucular</a></li>
+      <li><a href="erisimdegistiriceleri.html">C# Erişim Değiştiriceleri</a></li>
+      <li><a href="ozellikler.html">C# Özellikleri</a></li>
+      <li><a href="devralma.html">C# Devralma</a></li>
+      <li><a href="poliforfizm.html">C# Poliforfizm</a></li>
+      <li><a href="soyutlama.html">C# Soyutlama</a></li>
+      <li><a href="arabirimi.html">C# Arabirimi</a></li>
+      <li><a href="enumlari.html">C# Enumları</a></li>
+      <li><a href="dosyalari.html">C# Dosyaları</a></li>
+      <li><a href="ozeldurumları.html">C# Özel Durumları</a></li>
+      <li class="baslik">C# Nasıl Yapılır?</li>
+      <li><a href="ikisayiekle.html">İki Sayı Ekle </a></li>
+      <li class="baslik">C# Örnekleri</li>
+      <li><a href="ornekleri.html">C# Örnekleri</a></li>
+      <li><a href="derleyicisi.html">C# Derleyicisi</a></li>
+      <li><a href="egzersizleri.html">C# Egzersizleri</a></li>
+      <li><a href="testi.html">C# Testi</a></li>
+      <li><a href="sertifikasi.html">C# Sertifikası</a></li>
+    </ul>
+  </div>
+  <div id="menu">
+    <ul>
+      <li><a href="index.html">AnaSayfa</a></li>
+      <li><a href="iletisim.html">İletişim</a></li>
+    </ul>
+  </div>
+  <div class="icerik">
+    <p style="font-size:40px;">C# Özellikleri (Al ve Ayarla)</p>
+    <div class="sonraki"><a href="devralma.html">Sonraki</a></div>
+    <div class="onceki"><a href="erisimdegistiriceleri.html">Önceki</a></div>
+    <div class="border" style="margin-top:90px;"></div>
+    <p style="font-size:30px;">Özellikler ve Kapsülleme</p>
+    <p class="yaziboyut">Özellikleri açıklamaya başlamadan önce, "Kapsülleme" hakkında temel bir anlayışa sahip
+      olmalısınız.</p>
+    <p class="yaziboyut">Kapsüllemenin anlamı, "hassas" verilerin gizlendiğinden emin olmaktır. kullanıcılardan. Bunu
+      başarmak için şunları <br>yapmalısınız:</p>
+    <ul class="yaziboyut" style="line-height:25px;">
+      <li>alanları/değişkenleri şu şekilde bildir <strong>private</strong></li>
+      <li>özellikler aracılığıyla, bir alanın değerine erişmek ve bunları güncelleştirmek için yöntemler sağlar ve
+        yöntemler <strong>public</strong>/<strong>get</strong>/<strong>set</strong>/<strong>private</strong></li>
+    </ul>
+    <div class="border"></div>
+    <p style="font-size:30px; ">Özellikler</p>
+    <p class="yaziboyut">Bir önceki bölümden değişkenlerin sadece aynı sınıf içinde erişilir (bir dış sınıfın buna
+      erişimi yoktur). Fakat bazen onlara<br> erişmemiz gerekir - ve bu özelliklerle
+      yapılabilir.<strong>private</strong> </p>
+    <p class="yaziboyut">Bir özellik, bir değişken ve bir yöntemin birleşimi gibidir ve iki yöntemi vardır: a ve a
+      yöntemi:<strong>getset</strong></p>
+    <div class="gri" style="height:360px; width:900px; margin:0;">
+      <p style="font-size:30px; padding-left:15px; padding-top:15px;">Örnek</p>
+      <div class="beyaziki" style="height:250px;">
+        <p style="padding-top:20px; line-height:20px;">class Person<br>
+          {<br>
+          private <strong>string</strong> name; // field<br>
+          <br>
+          public <strong>string</strong> Name // property<br>
+          {<br>
+          <strong>get</strong> { return name; } // get method<br>
+          <strong>set</strong> { name = value; } // set method<br>
+          }<br>
+          }
+        </p>
+      </div>
+    </div>
+    <p style="font-size:30px;">Örnek açıklandı</p>
+    <p class="yaziboyut">Özellik, alanla ilişkilendirilir. Hem özellik hem de özel alan için aynı adı, ancak ilk harfi
+      büyük olacak şekilde kullanmak<br> iyi bir uygulamadır.<strong>Name</strong>/<strong>name</strong></p>
+    <p class="yaziboyut">Yöntem, değişkenin değerini döndürür.<strong>get</strong>/<strong>name</strong></p>
+    <p class="yaziboyut">Yöntem, değişkene a atar. Anahtar kelime, mülke atadığımız değeri temsil
+      eder.<strong>set</strong>/<strong>value</strong>/<strong>name</strong>/<strong>value</strong></p>
+    <div class="sari1">Tam olarak anlamadıysanız, aşağıdaki örneğe bir göz atın.</div>
+    <p class="yaziboyut">Artık sınıfın alanına erişmek ve güncellemek için özelliği
+      kullanabiliriz:<strong>Name</strong>/<strong>private</strong>/<strong>Person</strong></p>
+    <div class="gri" style="height:640px; width:900px; margin:0;">
+      <p style="font-size:30px; padding-left:15px; padding-top:15px;">Örnek</p>
+      <p class="yaziboyut" style="padding-left:50px;">
+      <div class="beyaziki" style="height:440px;">
+        <p class="yaziboyut" style="padding-top:15px;">class Person<br>
+          {<br>
+          private string name; // field<br>
+          public string Name // property<br>
+          {<br>
+          get { return name; }<br>
+          set { name = value; }<br>
+          }<br>
+          }<br>
+          <br>
+          class Program<br>
+          {<br>
+          static void Main(string[] args)<br>
+          {<br>
+          Person myObj = new Person();<br>
+          myObj.Name = "Liam";<br>
+          Console.WriteLine(myObj.Name);<br>
+          }<br>
+          }
+        </p>
+      </div>
+      <p class="yaziboyut" style="padding-left:50px;">Çıktı şöyle olacaktır:</p>
+      <div class="siyah">
+        <p class="yaziboyut" style="padding-left:20px;">Liam</p>
+      </div>
+    </div>
+    <div class="border" style="margin-top:30px;"></div>
+    <p style="font-size:30px;">Otomatik Özellikler (Kısa El)</p>
+    <p class="yaziboyut">C# ayrıca, kısa el / otomatik özellikleri kullanmak için bir yol sağlar. özellik için alanı
+      tanımlamanız gerekmez ve<br> yalnızca mülkün içine ve içine yazmanız gerekir.get;set;</p>
+    <p class="yaziboyut">Aşağıdaki örnek, yukarıdaki örnekle aynı sonucu verecektir. Tek fark, daha az kod olmasıdır:
+    </p>
+    <div class="gri" style="height:590px; width:900px; margin:0;">
+      <p style="font-size:30px; padding-left:15px; padding-top:15px;">Örnek</p>
+      <p class="yaziboyut" style="margin-top:-10px; padding-left:50px;">Otomatik özellikleri kullanma:</p>
+      <p class="yaziboyut" style="padding-left:50px;">
+      <div class="beyaziki" style="height:360px;">
+        <p class="yaziboyut" style="padding-top:15px;">class Person<br>
+          {<br>
+          <strong>public</strong> <strong>string</strong> Name // property<br>
+          { <strong>get</strong>; <strong>set</strong>; }<br>
+          }<br>
+          <br>
+          class Program<br>
+          {<br>
+          static void Main(string[] args)<br>
+          {<br>
+          Person myObj = new Person();<br>
+          myObj.Name = "Liam";<br>
+          Console.WriteLine(myObj.Name);<br>
+          }<br>
+          }
+        </p>
+      </div>
+      <p class="yaziboyut" style="padding-left:50px;">Çıktı şöyle olacaktır:</p>
+      <div class="siyah">
+        <p class="yaziboyut" style="padding-left:20px;">Liam</p>
+      </div>
+    </div>
+    <div class="border" style="margin-top:30px;"></div>
+    <p style="font-size:30px;">Neden Enkapsülasyon?</p>
+    <ul class="yaziboyut" style="line-height:25px;">
+      <li>Sınıf üyelerinin daha iyi kontrolü (kendinizin (veya başkalarının) kodu bozma olasılığını azaltın)</li>
+      <li>Alanlar salt okunur (yalnızca yöntemi kullanıyorsanız) veya salt yazma (yalnızca yöntemi kullanıyorsanız)
+        <br>yapılabilir <strong>get</strong>/<strong>set</strong></li>
+      <li>Esnek: programcı, diğer parçaları etkilemeden kodun bir bölümünü değiştirebilir</li>
+      <li>Artan veri güvenliği</li>
+    </ul>
+    <div class="border" style="margin-bottom:40px; margin-top:30px;"></div>
+    <div class="sonraki"><a href="devralma.html">Sonraki</a></div>
+    <div class="onceki"><a href="erisimdegistiriceleri.html">Önceki</a></div>
+  </div>
+</body>
+</html>

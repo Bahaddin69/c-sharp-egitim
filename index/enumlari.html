@@ -1,0 +1,228 @@
+<!doctype html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="../stil/stil.css">
+  <meta charset="utf-8">
+  <title>C# Enum</title>
+</head>
+<body>
+  <div class="solmenu">
+    <ul>
+      <li class="baslik">C# Öğretici</li>
+      <li><a href="egitim.html">C# GİRİŞ</a></li>
+      <li><a href="giris.html">C# Giriş</a></li>
+      <li><a href="kullanmayabaslama.html">C# Kullanmaya Başlama</a></li>
+      <li><a href="sozdizimi.html">C# Sözdizimi</a></li>
+      <li><a href="cikisi.html">C# Çıkışı</a></li>
+      <li><a href="tartismalari.html">C# Tartışmaları</a></li>
+      <li><a href="degiskenleri.html">C# Değişkenleri</a></li>
+      <li><a href="veriturleri.html">C# Veri Türleri</a></li>
+      <li><a href="tipidokum.html">C# Tipi Döküm</a></li>
+      <li><a href="kullanicigirisi.html">C# Kullanıcı Girişi</a></li>
+      <li><a href="islecleri.html">C# İşleçleri</a></li>
+      <li><a href="matematik.html">C# Matematik</a></li>
+      <li><a href="dizeleri.html">C# Dizeleri</a></li>
+      <li><a href="booleans.html">C# Booleans</a></li>
+      <li><a href="egerbaska.html">C# Eğer...Başka</a></li>
+      <li><a href="anahtari.html">C# Anahtarı</a></li>
+      <li><a href="dongusirasinda.html">C# Döngü Sırasında</a></li>
+      <li><a href="donguicin.html">C# Döngü İçin</a></li>
+      <li><a href="breakcontinue.html">C# Break/Continue</a></li>
+      <li><a href="Dizileri.html">C# Dizileri</a></li>
+      <li class="baslik">C# Yöntemler</li>
+      <li><a href="yontemleri.html">C# Yöntemleri</a></li>
+      <li><a href="yontemparametreleri.html">C# Yöntem Parametreleri</a></li>
+      <li><a href="yontemiasiriyukleme.html">C# Yöntemi Aşırı Yükleme</a></li>
+      <li class="baslik">C# Sınıf</li>
+      <li><a href="oop">C# OOP</a></li>
+      <li><a href="siniflarnesneleri.html">C# Sınıfları/Nesneleri</a></li>
+      <li><a href="sinifuyeleri.html">C# Sınıfı Üyeleri</a></li>
+      <li><a href="olusturuculari.html">C# Oluşturucular</a></li>
+      <li><a href="erisimdegistiriceleri.html">C# Erişim Değiştiriceleri</a></li>
+      <li><a href="ozellikler.html">C# Özellikleri</a></li>
+      <li><a href="devralma.html">C# Devralma</a></li>
+      <li><a href="poliforfizm.html">C# Poliforfizm</a></li>
+      <li><a href="soyutlama.html">C# Soyutlama</a></li>
+      <li><a href="arabirimi.html">C# Arabirimi</a></li>
+      <li><a href="enumlari.html">C# Enumları</a></li>
+      <li><a href="dosyalari.html">C# Dosyaları</a></li>
+      <li><a href="ozeldurumları.html">C# Özel Durumları</a></li>
+      <li class="baslik">C# Nasıl Yapılır?</li>
+      <li><a href="ikisayiekle.html">İki Sayı Ekle </a></li>
+      <li class="baslik">C# Örnekleri</li>
+      <li><a href="ornekleri.html">C# Örnekleri</a></li>
+      <li><a href="derleyicisi.html">C# Derleyicisi</a></li>
+      <li><a href="egzersizleri.html">C# Egzersizleri</a></li>
+      <li><a href="testi.html">C# Testi</a></li>
+      <li><a href="sertifikasi.html">C# Sertifikası</a></li>
+    </ul>
+  </div>
+  <div id="menu">
+    <ul>
+      <li><a href="index.html">AnaSayfa</a></li>
+      <li><a href="iletisim.html">İletişim</a></li>
+    </ul>
+  </div>
+  <div class="icerik">
+    <p style="font-size:40px;">C# Enum</p>
+    <div class="sonraki"><a href="dosyalari.html">Sonraki</a></div>
+    <div class="onceki"><a href="arabirimi.html">Önceki</a></div>
+    <div class="border" style="margin-top:90px;"></div>
+    <p style="font-size:30px;">C# Enumları</p>
+    <p class="yaziboyut">An, bir grup sabiti (değiştirilemez/salt okunur değişkenler) temsil eden özel bir
+      "sınıf"tır.enum</p>
+    <p class="yaziboyut">Bir anahtar sözcük oluşturmak için, anahtar sözcüğü kullanın (sınıf veya arabirim yerine) ve
+      virgüllü enum<br> öğeleri:<strong>enum</strong>/<strong>enum</strong></p>
+    <div class="gri" style="width:900px; margin:0; height:410px;">
+      <p style="font-size:30px; padding-left:15px; padding-top:15px;">Örnek</p>
+      <div class="beyazbir" style="height:170px; padding:0; padding-top:1px; padding-left:15px;">
+        <p class="yaziboyut"><em>enum</em> Level <br>
+          {<br>
+          Low,<br>
+          Medium,<br>
+          High<br>
+          }</p>
+      </div>
+      <p class="yaziboyut" style="padding-left:50px;"><strong>Öğelere nokta</strong> sözdizimi ile
+        erişebilirsiniz:<em>enum</em></p>
+      <div class="beyazbir" style="height:80px; padding:0; padding-top:1px; padding-left:15px;">
+        <p class="yaziboyut">Level myVar = Level.Medium;<br>
+          Console.WriteLine(myVar);</p>
+      </div>
+    </div>
+    <div class="sari1" style="margin-top:30px;">Enum, "özel olarak listelenmiş" anlamına gelen "numaralandırmalar" ın
+      kısaltmasıdır.</div>
+    <div class="border" style="margin-top:30px;"></div>
+    <p style="font-size:30px;">Sınıf İçinde Enum</p>
+    <p class="yaziboyut">Ayrıca bir sınıfın içinde de olabilir:enum</p>
+    <div class="gri" style="width:900px; margin:0; height:550px;">
+      <p style="font-size:30px; padding-left:15px; padding-top:15px;">Örnek</p>
+      <div class="beyazbir" style="height:335px; padding:0; padding-top:1px; padding-left:15px;">
+        <p class="yaziboyut">class Program<br>
+          {<br>
+          enum Level<br>
+          {<br>
+          Low,<br>
+          Medium,<br>
+          High<br>
+          }<br>
+          static void Main(string[] args)<br>
+          {<br>
+          Level myVar = Level.Medium;<br>
+          Console.WriteLine(myVar);<br>
+          }<br>
+          }</p>
+      </div>
+      <p class="yaziboyut" style="padding-left:50px;">Çıktı şöyle olacaktır:</p>
+      <div class="siyah">
+        <p style="margin-left:20px;">Medium</p>
+      </div>
+    </div>
+    <div class="border" style="margin-top:30px;"></div>
+    <p style="font-size:30px;">Enum Değerleri</p>
+    <p class="yaziboyut">Varsayılan olarak, bir enumun ilk öğesi 0 değerine sahiptir. İkincisi 1 değerine sahiptir ve bu
+      şekilde devam eder.</p>
+    <p class="yaziboyut">Bir öğeden tamsayı değerini almak için, öğeyi açıkça bir :int</p>
+    <div class="gri" style="width:900px; margin:0; height:585px;">
+      <p style="font-size:30px; padding-left:15px; padding-top:15px;">Örnek</p>
+      <div class="beyazbir" style="height:385px; padding:0; padding-top:1px; padding-left:15px;">
+        <p class="yaziboyut">enum Months<br>
+          {<br>
+          January, // 0<br>
+          February, // 1<br>
+          March, // 2<br>
+          April, // 3<br>
+          May, // 4<br>
+          June, // 5<br>
+          July // 6<br>
+          }<br>
+          <br>
+          static void Main(string[] args)<br>
+          {<br>
+          int myNum = (int) Months.April;<br>
+          Console.WriteLine(myNum);<br>
+          }
+        </p>
+      </div>
+      <p class="yaziboyut" style="padding-left:50px;">Çıktı şöyle olacaktır:</p>
+      <div class="siyah">
+        <p style="margin-left:20px;">3</p>
+      </div>
+    </div>
+    <p class="yaziboyut">Kendi enum değerlerinizi de atayabilirsiniz ve sonraki öğeler numaralarını buna göre
+      güncelleyecektir:</p>
+    <div class="gri" style="width:900px; margin:0; height:585px;">
+      <p style="font-size:30px; padding-left:15px; padding-top:15px;">Örnek</p>
+      <div class="beyazbir" style="height:385px; padding:0; padding-top:1px; padding-left:15px;">
+        <p class="yaziboyut">enum Months<br>
+          {<br>
+          January, // 0<br>
+          February, // 1<br>
+          March=6, // 6<br>
+          April, // 7<br>
+          May, // 8<br>
+          June, // 9<br>
+          July // 10<br>
+          }<br>
+          <br>
+          static void Main(string[] args)<br>
+          {<br>
+          int myNum = (int) Months.April;<br>
+          Console.WriteLine(myNum);<br>
+          }
+        </p>
+      </div>
+      <p class="yaziboyut" style="padding-left:50px;">Çıktı şöyle olacaktır:</p>
+      <div class="siyah">
+        <p style="margin-left:20px;">7</p>
+      </div>
+    </div>
+    <div class="border" style="margin-top:30px;"></div>
+    <p style="font-size:30px;">Bir Switch İfadesinde Enum</p>
+    <p class="yaziboyut">Enumlar genellikle karşılık gelen değerleri denetlemek için ifadelerde kullanılır:switch</p>
+    <div class="gri" style="width:900px; margin:0; height:730px;">
+      <p style="font-size:30px; padding-left:15px; padding-top:15px;">Örnek</p>
+      <div class="beyazbir" style="height:525px; padding:0; padding-top:1px; padding-left:15px;">
+        <p class="yaziboyut">enum Level <br>
+          {<br>
+          Low,<br>
+          Medium,<br>
+          High<br>
+          }<br>
+          <br>
+          static void Main(string[] args) <br>
+          {<br>
+          Level myVar = Level.Medium;<br>
+          switch(myVar) <br>
+          {<br>
+          case Level.Low:<br>
+          Console.WriteLine("Low level");<br>
+          break;<br>
+          case Level.Medium:<br>
+          Console.WriteLine("Medium level");<br>
+          break;<br>
+          case Level.High:<br>
+          Console.WriteLine("High level");<br>
+          break;<br>
+          }<br>
+          }
+        </p>
+      </div>
+      <p class="yaziboyut" style="padding-left:50px;">Çıktı şöyle olacaktır:</p>
+      <div class="siyah">
+        <p style="margin-left:20px;">Medium level</p>
+      </div>
+    </div>
+    <div class="sari" style="margin-top:30px; width:800px;">
+      <p style="margin-top:-10px;">Enumlar Neden ve Ne Zaman Kullanılmalı?<br>
+        <br>
+        Ay günleri, günler, renkler, kart destesi gibi değişmeyeceğini bildiğiniz değerleriniz olduğunda enumları
+        kullanın.
+      </p>
+    </div>
+    <div class="border" style="margin-top:30px; margin-bottom:40px;"></div>
+    <div class="sonraki"><a href="dosyalari.html">Sonraki</a></div>
+    <div class="onceki"><a href="arabirimi.html">Önceki</a></div>
+  </div>
+</body>
+</html>

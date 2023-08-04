@@ -1,0 +1,236 @@
+<!doctype <html>
+</html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="../stil/stil.css">
+  <meta charset="utf-8">
+  <title>C# Polimorfizm</title>
+</head>
+<body>
+  <div class="solmenu">
+    <ul>
+      <li class="baslik">C# Öğretici</li>
+      <li><a href="egitim.html">C# GİRİŞ</a></li>
+      <li><a href="giris.html">C# Giriş</a></li>
+      <li><a href="kullanmayabaslama.html">C# Kullanmaya Başlama</a></li>
+      <li><a href="sozdizimi.html">C# Sözdizimi</a></li>
+      <li><a href="cikisi.html">C# Çıkışı</a></li>
+      <li><a href="tartismalari.html">C# Tartışmaları</a></li>
+      <li><a href="degiskenleri.html">C# Değişkenleri</a></li>
+      <li><a href="veriturleri.html">C# Veri Türleri</a></li>
+      <li><a href="tipidokum.html">C# Tipi Döküm</a></li>
+      <li><a href="kullanicigirisi.html">C# Kullanıcı Girişi</a></li>
+      <li><a href="islecleri.html">C# İşleçleri</a></li>
+      <li><a href="matematik.html">C# Matematik</a></li>
+      <li><a href="dizeleri.html">C# Dizeleri</a></li>
+      <li><a href="booleans.html">C# Booleans</a></li>
+      <li><a href="egerbaska.html">C# Eğer...Başka</a></li>
+      <li><a href="anahtari.html">C# Anahtarı</a></li>
+      <li><a href="dongusirasinda.html">C# Döngü Sırasında</a></li>
+      <li><a href="donguicin.html">C# Döngü İçin</a></li>
+      <li><a href="breakcontinue.html">C# Break/Continue</a></li>
+      <li><a href="Dizileri.html">C# Dizileri</a></li>
+      <li class="baslik">C# Yöntemler</li>
+      <li><a href="yontemleri.html">C# Yöntemleri</a></li>
+      <li><a href="yontemparametreleri.html">C# Yöntem Parametreleri</a></li>
+      <li><a href="yontemiasiriyukleme.html">C# Yöntemi Aşırı Yükleme</a></li>
+      <li class="baslik">C# Sınıf</li>
+      <li><a href="oop.html">C# OOP</a></li>
+      <li><a href="siniflarnesneleri.html">C# Sınıfları/Nesneleri</a></li>
+      <li><a href="sinifuyeleri.html">C# Sınıfı Üyeleri</a></li>
+      <li><a href="olusturuculari.html">C# Oluşturucular</a></li>
+      <li><a href="erisimdegistiriceleri.html">C# Erişim Değiştiriceleri</a></li>
+      <li><a href="ozellikler.html">C# Özellikleri</a></li>
+      <li><a href="devralma.html">C# Devralma</a></li>
+      <li><a href="poliforfizm.html">C# Poliforfizm</a></li>
+      <li><a href="soyutlama.html">C# Soyutlama</a></li>
+      <li><a href="arabirimi.html">C# Arabirimi</a></li>
+      <li><a href="enumlari.html">C# Enumları</a></li>
+      <li><a href="dosyalari.html">C# Dosyaları</a></li>
+      <li><a href="ozeldurumları.html">C# Özel Durumları</a></li>
+      <li class="baslik">C# Nasıl Yapılır?</li>
+      <li><a href="ikisayiekle.html">İki Sayı Ekle </a></li>
+      <li class="baslik">C# Örnekleri</li>
+      <li><a href="ornekleri.html">C# Örnekleri</a></li>
+      <li><a href="derleyicisi.html">C# Derleyicisi</a></li>
+      <li><a href="egzersizleri.html">C# Egzersizleri</a></li>
+      <li><a href="testi.html">C# Testi</a></li>
+      <li><a href="sertifikasi.html">C# Sertifikası</a></li>
+    </ul>
+  </div>
+  <div id="menu">
+    <ul>
+      <li><a href="index.html">AnaSayfa</a></li>
+      <li><a href="iletisim.html">İletişim</a></li>
+    </ul>
+  </div>
+  <div class="icerik">
+    <p style="font-size:40px;">C# Polimorfizm</p>
+    <div class="sonraki"><a href="soyutlama.html">Sonraki</a></div>
+    <div class="onceki"><a href="devralma.html">Önceki</a></div>
+    <div class="border" style="margin-top:90px;"></div>
+    <p style="font-size:30px;">Polimorfizm ve Geçersiz Kılma Yöntemleri</p>
+    <p class="yaziboyut">Polimorfizm "birçok form" anlamına gelir ve kalıtım yoluyla birbiriyle ilişkili birçok
+      sınıfımız olduğunda ortaya çıkar.</p>
+    <p class="yaziboyut">Bir önceki bölümde belirttiğimiz gibi; <a href="devralma.html"
+        style="color:#000;"><strong>Miras</strong></a> bize izin verir alanları ve yöntemleri başka bir sınıftan
+      devralır. <strong>Polimorfizm</strong>,<br>
+      bu yöntemleri farklı görevleri gerçekleştirmek için kullanır. Bu, tek bir performans göstermemizi sağlar farklı
+      şekillerde <br>eylem.</p>
+    <p class="yaziboyut">Örneğin, . Türetilmiş Hayvan sınıfları Domuzlar, Kediler, Köpekler, Kuşlar olabilir - Ve ayrıca
+      bir hayvan sesinin kendi<br> uygulamalarına da sahiptirler (domuz oinkleri ve kedi miyavları,
+      vb.):AnimalanimalSound()</p>
+    <div class="gri" style="height:610px; width:900px; margin:0;">
+      <p style="font-size:20px; padding-left:15px; padding-top:15px;">Örnek</p>
+      <p class="yaziboyut" style="padding-left:50px;">
+      <div class="beyaziki" style="height:520px; ">
+        <p class="yaziboyut" style="padding-top:15px;">class Animal // Base class (parent) <br>
+          {<br>
+          <strong>public void</strong> animalSound() <br>
+          {<br>
+          Console.WriteLine("The animal makes a sound");<br>
+          }<br>
+          }<br>
+          <br>
+          class Pig : Animal // Derived class (child) <br>
+          {<br>
+          public void animalSound() <br>
+          {<br>
+          Console.WriteLine("The pig says: wee wee");<br>
+          }<br>
+          }<br>
+          <br>
+          class Dog : Animal // Derived class (child) <br>
+          {<br>
+          <strong>public void</strong> animalSound() <br>
+          {<br>
+          Console.WriteLine("The dog says: bow wow");<br>
+          }<br>
+          }
+        </p>
+      </div>
+    </div>
+    <div class="sari1" style="margin-top:30px;"><a href="devralma.html" style="color:#000;">Devralma bölümünden</a>,
+      sembolü bir sınıftan devralmak için kullandığımızı unutmayın.:</div>
+    <p class="yaziboyut">Şimdi oluşturabilir ve nesneler oluşturabilir ve her ikisinde de yöntemi
+      çağırabiliriz:<strong>Pig</strong> <strong>Dog</strong>/<strong>animalSound</strong>()</p>
+    <div class="gri" style="height:1090px; width:900px; margin:0;">
+      <p style="font-size:20px; padding-left:15px; padding-top:15px;">Örnek</p>
+      <p class="yaziboyut" style="padding-left:50px;">
+      <div class="beyaziki" style="height:820px;">
+        <p class="yaziboyut" style="padding-top:15px;">class Animal // Base class (parent) <br>
+          {<br>
+          <strong>public void </strong>animalSound() <br>
+          {<br>
+          Console.WriteLine("The animal makes a sound");<br>
+          }<br>
+          }<br>
+          <br>
+          class Pig : Animal // Derived class (child) <br>
+          {<br>
+          <strong>public void</strong> animalSound() <br>
+          {<br>
+          Console.WriteLine("The pig says: wee wee");<br>
+          }<br>
+          }<br>
+          <br>
+          class Dog : Animal // Derived class (child) <br>
+          {<br>
+          <strong>public void</strong> animalSound() <br>
+          {<br>
+          Console.WriteLine("The dog says: bow wow");<br>
+          }<br>
+          }<br>
+          <br>
+          class Program<br>
+          {<br>
+          static void Main(string[] args) <br>
+          {<br>
+          <strong>Animal</strong> myAnimal = new <strong>Animal</strong>(); // Create a Animal object<br>
+          <strong>Animal</strong> myPig = new Pig(); // Create a Pig object<br>
+          <strong>Animal</strong> myDog = new Dog(); // Create a Dog object<br>
+          <br>
+          myAnimal.<strong>animalSound</strong>();<br>
+          myPig.<strong>animalSound</strong>();<br>
+          myDog.<strong>animalSound</strong>();<br>
+          }<br>
+          }
+        </p>
+      </div>
+      <p class="yaziboyut" style="padding-left:50px;">Çıktı şöyle olacaktır:</p>
+      <div class="siyah" style="height:130px;">
+        <p class="yaziboyut" style="padding-left:20px;">The animal makes a sound<br>
+          The animal makes a sound<br>
+          The animal makes a sound</p>
+      </div>
+    </div>
+    <div class="sari" style="margin-top:30px; width:800px; height:150px;">Aradığım Çıktı Değil<br>
+      <p>Yukarıdaki örnekten elde edilen çıktı muhtemelen beklediğiniz gibi değildi. Bunun nedeni, temel sınıf
+        yönteminin, aynı adı paylaştıklarında türetilmiş sınıf yöntemini geçersiz kılmasıdır.<br>
+        <br>
+        Ancak, C#, anahtar sözcüğü temel sınıf içindeki yönteme ekleyerek ve türetilmiş her sınıf yöntemi için anahtar
+        sözcüğü kullanarak temel sınıf yöntemini geçersiz kılma seçeneği
+        sunar:<strong>virtual</strong>/<strong>override</strong>
+      </p>
+    </div>
+    <div class="gri" style="height:1080px; width:900px; margin:0;">
+      <p style="font-size:20px; padding-left:15px; padding-top:15px;">Örnek</p>
+      <p class="yaziboyut" style="padding-left:50px;">
+      <div class="beyaziki" style="height:810px;">
+        <p class="yaziboyut" style="padding-top:15px;">class Animal // Base class (parent) <br>
+          {<br>
+          <strong> public virtual void animalSound</strong>() <br>
+          {<br>
+          Console.WriteLine("The animal makes a sound");<br>
+          }<br>
+          }<br>
+          <br>
+          class Pig : <strong>Animal</strong> // Derived class (child) <br>
+          {<br>
+          <strong>public override void animalSound</strong>() <br>
+          {<br>
+          Console.WriteLine("The pig says: wee wee");<br>
+          }<br>
+          }<br>
+          <br>
+          class Dog : <strong>Animal</strong> // Derived class (child) <br>
+          {<br>
+          <strong>public override void animalSound</strong>() <br>
+          {<br>
+          Console.WriteLine("The dog says: bow wow");<br>
+          }<br>
+          }<br>
+          <br>
+          class Program <br>
+          {<br>
+          static void Main(string[] args) <br>
+          {<br>
+          <strong>Animal</strong> myAnimal = new <strong>Animal</strong>(); // Create a Animal object<br>
+          <strong>Animal</strong> myPig = new Pig(); // Create a Pig object<br>
+          <strong>Animal</strong> myDog = new Dog(); // Create a Dog object<br>
+          <br>
+          myAnimal.<strong>animalSound</strong>();<br>
+          myPig.<strong>animalSound</strong>();<br>
+          myDog.<strong>animalSound</strong>();<br>
+          }<br>
+          }
+        </p>
+      </div>
+      <p class="yaziboyut" style="padding-left:50px;">Çıktı şöyle olacaktır:</p>
+      <div class="siyah" style="height:130px;">
+        <p class="yaziboyut" style="padding-left:20px;">The animal makes a sound<br>
+          The pig says: wee wee<br>
+          The dog says: bow wow</p>
+      </div>
+    </div>
+    <div class="sari" style="width:800px; margin-top:30px;">
+      <p style="margin-top:-10px;">Neden ve Ne Zaman "Kalıtım" ve "Polimorfizm" Kullanılmalı?<br><br>
+        - Kodun yeniden kullanılabilirliği için kullanışlıdır: yeni bir sınıf oluşturduğunuzda mevcut bir sınıfın
+        alanlarını ve yöntemlerini yeniden kullanın.</p>
+    </div>
+    <div class="border" style="margin-top:30px; margin-bottom:40px;"></div>
+    <div class="sonraki"><a href="soyutlama.html">Sonraki</a></div>
+    <div class="onceki"><a href="devralma.html">Önceki</a></div>
+  </div>
+</body>
+</html>

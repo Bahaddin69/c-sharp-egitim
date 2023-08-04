@@ -1,0 +1,193 @@
+<!doctype <html>
+</html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="../stil/stil.css">
+  <meta charset="utf-8">
+  <title>C# Oluşturucular</title>
+</head>
+<body>
+  <div class="solmenu">
+    <ul>
+      <li class="baslik">C# Öğretici</li>
+      <li><a href="egitim.html">C# GİRİŞ</a></li>
+      <li><a href="giris.html">C# Giriş</a></li>
+      <li><a href="kullanmayabaslama.html">C# Kullanmaya Başlama</a></li>
+      <li><a href="sozdizimi.html">C# Sözdizimi</a></li>
+      <li><a href="cikisi.html">C# Çıkışı</a></li>
+      <li><a href="tartismalari.html">C# Tartışmaları</a></li>
+      <li><a href="degiskenleri.html">C# Değişkenleri</a></li>
+      <li><a href="veriturleri.html">C# Veri Türleri</a></li>
+      <li><a href="tipidokum.html">C# Tipi Döküm</a></li>
+      <li><a href="kullanicigirisi.html">C# Kullanıcı Girişi</a></li>
+      <li><a href="islecleri.html">C# İşleçleri</a></li>
+      <li><a href="matematik.html">C# Matematik</a></li>
+      <li><a href="dizeleri.html">C# Dizeleri</a></li>
+      <li><a href="booleans.html">C# Booleans</a></li>
+      <li><a href="egerbaska.html">C# Eğer...Başka</a></li>
+      <li><a href="anahtari.html">C# Anahtarı</a></li>
+      <li><a href="dongusirasinda.html">C# Döngü Sırasında</a></li>
+      <li><a href="donguicin.html">C# Döngü İçin</a></li>
+      <li><a href="breakcontinue.html">C# Break/Continue</a></li>
+      <li><a href="Dizileri.html">C# Dizileri</a></li>
+      <li class="baslik">C# Yöntemler</li>
+      <li><a href="yontemleri.html">C# Yöntemleri</a></li>
+      <li><a href="yontemparametreleri.html">C# Yöntem Parametreleri</a></li>
+      <li><a href="yontemiasiriyukleme.html">C# Yöntemi Aşırı Yükleme</a></li>
+      <li class="baslik">C# Sınıf</li>
+      <li><a href="oop.html">C# OOP</a></li>
+      <li><a href="siniflarnesneleri.html">C# Sınıfları/Nesneleri</a></li>
+      <li><a href="sinifuyeleri.html">C# Sınıfı Üyeleri</a></li>
+      <li><a href="olusturuculari.html">C# Oluşturucular</a></li>
+      <li><a href="erisimdegistiriceleri.html">C# Erişim Değiştiriceleri</a></li>
+      <li><a href="ozellikler.html">C# Özellikleri</a></li>
+      <li><a href="devralma.html">C# Devralma</a></li>
+      <li><a href="poliforfizm.html">C# Poliforfizm</a></li>
+      <li><a href="soyutlama.html">C# Soyutlama</a></li>
+      <li><a href="arabirimi.html">C# Arabirimi</a></li>
+      <li><a href="enumlari.html">C# Enumları</a></li>
+      <li><a href="dosyalari.html">C# Dosyaları</a></li>
+      <li><a href="ozeldurumları.html">C# Özel Durumları</a></li>
+      <li class="baslik">C# Nasıl Yapılır?</li>
+      <li><a href="ikisayiekle.html">İki Sayı Ekle </a></li>
+      <li class="baslik">C# Örnekleri</li>
+      <li><a href="ornekleri.html">C# Örnekleri</a></li>
+      <li><a href="derleyicisi.html">C# Derleyicisi</a></li>
+      <li><a href="egzersizleri.html">C# Egzersizleri</a></li>
+      <li><a href="testi.html">C# Testi</a></li>
+      <li><a href="sertifikasi.html">C# Sertifikası</a></li>
+    </ul>
+  </div>
+  <div id="menu">
+    <ul>
+      <li><a href="index.html">AnaSayfa</a></li>
+      <li><a href="iletisim.html">İletişim</a></li>
+    </ul>
+  </div>
+  <div class="icerik">
+    <p style="font-size:40px;">C# Oluşturucular</p>
+    <div class="sonraki"><a href="erisimdegistiriceleri.html">Sonraki</a></div>
+    <div class="onceki"><a href="sinifuyeleri.html">Önceki</a></div>
+    <div class="border" style="margin-top:90px;"></div>
+    <p style="font-size:30px;">Kurucular</p>
+    <p class="yaziboyut">Oluşturucu, başlatmak için kullanılan özel bir yöntemdir Nesne. Bir yapıcının avantajı, bir
+      sınıfın nesnesi oluşturulduğunda çağrılmasıdır. Şunları yapabilir: alanların başlangıç değerlerini ayarlamak için
+      kullanılır:</p>
+    <div class="gri" style="height:550px; width:900px; margin:0;">
+      <p style="font-size:30px; padding-left:15px; padding-top:15px;">Örnek </p>
+      <p class="yaziboyut" style="padding-left:50px; margin-top:-10px;">Bir oluşturucu oluşturun:</p>
+      <p class="yaziboyut" style="padding-left:50px;">
+      <div class="beyaziki" style="height:410px;">
+        <p style="padding-top:20px; line-height:20px;">// Create a Car class
+          class Car<br>
+          {<br>
+          public string model; // Create a field<br>
+          <br>
+          // Create a class constructor for the Car class<br>
+          public Car()<br>
+          {<br>
+          model = "Mustang"; // Set the initial value for model<br>
+          }<br>
+          <br>
+          static void Main(string[] args)<br>
+          {<br>
+          Car Ford = new Car(); // Create an object of the Car Class (this will call the constructor)<br>
+          Console.WriteLine(Ford.model); // Print the value of model<br>
+          }<br>
+          }<br>
+          <br>
+          // Outputs "Mustang"
+        </p>
+      </div>
+    </div>
+    <div class="sari" style="width:800px; margin-top:30px; height:200px; word-spacing:3px;">
+      <p style="margin-top:-10px;">Oluşturucu adının <strong>sınıf adıyla eşleşmesi</strong> gerektiğini ve bir
+        <strong>dönüş türüne</strong> (like veya ) sahip olamayacağını unutmayın.
+        <strong>void</strong>/<strong>int</strong><br>
+        <br>
+        Ayrıca, nesne oluşturulduğunda oluşturucunun çağrıldığını unutmayın.<br>
+        <br>
+        Varsayılan olarak tüm sınıfların oluşturucuları vardır: bir sınıf oluşturmazsanız Kendiniz oluşturun, C# sizin
+        için bir tane oluşturur. Ancak, o zaman yapamazsınız Alanlar için başlangıç değerlerini ayarlamak üzere
+        ayarlayın.<br>
+        <strong>İnşaatçılar zaman kazandırır!</strong> Nedenini gerçekten anlamak için bu sayfadaki son örneğe bir göz
+        atın.
+      </p>
+    </div>
+    <div class="border" style="margin-top:30px;"></div>
+    <p style="font-size:30px;">Oluşturucu Parametreleri</p>
+    <p class="yaziboyut">Oluşturucular, başlatmak için kullanılan parametreleri de alabilir Alanları.</p>
+    <p class="yaziboyut" style="word-spacing:3px; line-height:22px;">Aşağıdaki örnek bir parametre ekler yapıcıya.
+      Oluşturucunun içinde () olarak ayarladık. Aradığımızda Yapıcı, <br>oluşturucuya () değerini ayarlayacak bir
+      parametre iletiriz:<strong>string</strong>modelName/model/modelName/model=modelName"Mustang"model"<br>
+      Mustang"</p>
+    <div class="gri" style="height:520px; width:900px; margin:0;">
+      <p style="font-size:30px; padding-left:15px; padding-top:15px;">Örnek </p>
+      <p class="yaziboyut" style="padding-left:50px;">
+      <div class="beyaziki" style="height:410px;">
+        <p style="padding-top:20px; line-height:20px;">class Car<br>
+          {<br>
+          <strong>public</strong> <strong>string</strong> model;<br>
+          <br>
+          // Create a class constructor with a parameter<br>
+          <strong>public</strong> <strong>Car</strong>(string modelName)<br>
+          {<br>
+          model = modelName;<br>
+          }<br>
+          <br>
+          static void Main(string[] args)<br>
+          {<br>
+          <strong>Car</strong> Ford = new Car("Mustang");<br>
+          Console.WriteLine(Ford.model);<br>
+          }<br>
+          }<br>
+          <br>
+          // Outputs "Mustang"
+        </p>
+      </div>
+    </div>
+    <p class="yaziboyut">İstediğiniz kadar parametreye sahip olabilirsiniz:</p>
+    <div class="gri" style="height:610px; width:900px; margin:0;">
+      <p style="font-size:30px; padding-left:15px; padding-top:15px;">Örnek </p>
+      <p class="yaziboyut" style="padding-left:50px;">
+      <div class="beyaziki" style="height:500px;">
+        <p style="padding-top:20px; line-height:20px;">class Car<br>
+          {<br>
+          <strong>public</strong> <strong>string</strong> model;<br>
+          <strong>public</strong> <strong>string</strong> color;<br>
+          <strong>public</strong> <strong>int</strong> year;<br>
+          <br>
+          // Create a class constructor with multiple parameters<br>
+          public Car(string modelName, string modelColor, int modelYear)<br>
+          {<br>
+          model = modelName;<br>
+          color = modelColor;<br>
+          year = modelYear;<br>
+          }<br>
+          <br>
+          static void Main(string[] args)<br>
+          {<br>
+          <strong>Car</strong> Ford = new Car("Mustang", "Red", 1969);<br>
+          Console.WriteLine(Ford.color + " " + Ford.year + " " + Ford.model);<br>
+          }<br>
+          }<br>
+          <br>
+          <br>
+          // Outputs Red 1969 Mustang
+        </p>
+      </div>
+    </div>
+    <div class="sari1">
+      <p class="yaziboyut">Bahşiş: Diğer yöntemlerde olduğu gibi, oluşturucular farklı sayıda parametre kullanılarak
+        aşırı yüklenebilir.</p>
+    </div>
+    <div class="border" style="margin-top:30px;"></div>
+    <p style="font-size:30px;">Üreticiler Zamandan Tasarruf Sağlar</p>
+    <p class="yaziboyut">Önceki bölümdeki örneği düşündüğünüzde, oluşturucuların kod miktarını azaltmaya yardımcı
+      oldukları için çok <br>kullanışlıdırlar:</p>
+    <div class="border" style="margin-top:30px; margin-bottom:40px;"></div>
+    <div class="sonraki"><a href="erisimdegistiriceleri.html">Sonraki</a></div>
+    <div class="onceki"><a href="sinifuyeleri.html">Önceki</a></div>
+  </div>
+</body> 
+</html>

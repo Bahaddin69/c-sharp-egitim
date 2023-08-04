@@ -1,0 +1,384 @@
+@charset "utf-8";
+/* CSS Document */
+body{margin:0;
+padding:0;}
+
+.solmenu{width:250px;
+height:92%;
+background-color:#E7E9EB;
+position: fixed;
+margin:0;
+overflow-y: auto;
+overflow-x: hidden;
+margin-top:-40px;}
+
+.solmenu ul{margin:0;
+padding:0;
+list-style-type:none;}
+
+.solmenu ul li{width:250px;
+text-align:left;
+
+text-indent:20px;
+}
+
+.solmenu ul li a{line-height:25px;
+font-size:18px;
+color:#000f;
+text-decoration:none;
+display:block;}
+
+.solmenu ul li a:hover{background-color:#CCCCCC;
+font-weight: bold;}
+
+.baslik{font-size:22px;
+font-weight:bold;
+margin-top:10px;
+margin-bottom:10px;}
+
+.icerik{width:980px;
+
+margin-left:300px;
+margin-top:100px;}
+
+.sonraki{width:130px;
+height:50px;
+background-color:#5BB378;
+line-height:50px;
+font-size:20px;
+border-radius: 10px 10px 10px 10px;
+float:right;
+text-align:center;
+margin-right:100px;
+position:relative;
+top:-20px;}
+.sonraki a{text-decoration:none;
+color:#FFFFFF;
+font-weight:bold;
+display:block;}
+
+.sonraki:hover{background-color:#457C4A;
+transition: 0.5s;
+color:#FFFFFF;
+box-shadow: 0px 13px 60px -10px #457C4A;}
+
+.mavi{width:980px;
+height:350px;
+background-color:#d9eee1;
+position:relative;
+top:50px;
+}
+
+.mavibaslik{font-size:30px;
+text-indent:20px;
+padding-top:50px;}
+
+.maviyazi{padding-left:20px;
+font-size:20px;}
+
+.yesilkutu{width:250px;
+height:50px;
+background-color:#04aa6d;
+text-align:center;
+line-height:50px;
+border-radius: 10px 10px 10px 10px;
+margin-left:20px;
+margin-top:30px;
+}
+
+.yesilkutu a{width:250px;
+display:block;
+color:#fff;
+text-decoration:none;
+font-size:18px;}
+
+.yesilkutu:hover{background-color:#457C4A;}
+
+.gri{width:980px;
+height:460px;
+background-color:#e7e9eb;
+position:relative;
+margin-top:100px;
+border-radius:10px 10px 10px 10px;}
+
+.gribaslik{font-size:30px;
+padding-top:30px;
+padding-left:22px;}
+
+.beyaz{width:880px;
+height:300px;
+border-left:5px solid #04aa6d;
+background-color:#fff;
+margin-left:40px;
+padding-left:20px;
+line-height:25px;
+}
+
+.onceki{width:130px;
+height:50px;
+background-color:#5BB378;
+line-height:50px;
+font-size:20px;
+border-radius: 10px 10px 10px 10px;
+float:left;
+text-align:center;
+margin-right:100px;
+position:relative;
+top:-20px;}
+
+.onceki a{text-decoration:none;
+color:#FFFFFF;
+font-weight:bold;
+display:block;}
+
+.onceki:hover{background-color:#457C4A;
+transition: 0.5s;
+box-shadow: 0px 13px 60px -10px #457C4A;}
+
+.yaziboyut{font-size:18px;}
+
+.line{line-height:30px;}
+
+.line2{line-height:25px;}
+
+.border{width:900px;
+border-top:solid 1px #B9B9B9;
+}
+
+#resim1{background-image:url(../img/Ekran%20Al%C4%B1nt%C4%B1s%C4%B1.PNG);width:837px;
+height:446px;}
+
+#resim2{background-image:url(../img/Ekran%20Al%C4%B1nt%C4%B1s%C4%B12.PNG);
+width:839px;
+height:579px;}
+
+#resim3{width:839px;
+height:353px;
+background-image:url(../img/Ekran%20Al%C4%B1nt%C4%B1s%C4%B13.PNG);}
+
+#resim4{background-image:url(../img/Ekran%20Al%C4%B1nt%C4%B1s%C4%B14.PNG);
+width:980px;
+height:458px;}
+
+#yazi{width:839px;
+height:100px;
+overflow:scroll;
+background-color:#000;
+border:solid 20px #C3C3C3;
+font-size:20px;
+color:#fff;
+margin-top:20px;
+}
+#resim5{width:839px;
+height:520px;
+background-image:url(../img/Ekran%20Al%C4%B1nt%C4%B1s%C4%B15.PNG);}
+
+#resim5gri{width:100px;
+height:100px;
+background-color:red;
+position:absolute;
+bottom:450px;}
+
+#siyah{width:885px;
+height:60px;
+background-color:#000;
+color:#fff;
+margin-left:40px;
+font-size:19px;
+line-height:60px;
+text-indent:15px;}
+
+.sari{background-color:#ffffcc;
+width:880px;
+height:70px;
+padding:50px;
+font-size:20px;}
+
+#menu{width:100%;
+height:60px;
+padding-left:80%;
+font-size:20px;
+color:#fff;
+background-color:#5BB378;
+z-index:1;
+position:fixed;
+top:-0;}
+
+#menu ul{list-style-type:none;
+margin:0;
+padding:0;}
+
+#menu ul li{float:left;
+width:100px;
+line-height:60px;
+text-align:center;}
+
+#menu ul li a{
+
+
+color:#fff;
+font-size:20px;
+}
+
+#menu ul li a:hover{
+font-weight:bold;
+
+}
+
+.beyazbir{width:780px;
+height:100px;
+margin-left:50px;
+margin-top:100px;
+background-color:#fff;
+border-left:solid 3px #04aa6d;
+margin-top:-10px;
+padding-left:20px;
+padding-top:10px;
+word-spacing:3px;
+}
+ 
+.beyaziki{width:780px;
+height:100px;
+background-color:#fff;
+border-left:solid 3px #04aa6d;
+word-spacing:3px;
+padding-left:20px;
+margin-top:-10px;
+margin-left:50px;
+}
+
+#mahmut ul li{margin-bottom:5px;
+font-size:17px;}
+
+
+.sari1{background-color:#ffffcc;
+width:900px;
+height:70px;
+text-align:center;
+font-size:20px;
+line-height:70px;}
+
+.sari1 a{color:000;
+}
+
+.siyah{width:800px;
+height:40px;
+text-align:left;
+line-height:40px;
+background-color:#000;
+margin-left:50px;
+color:#fff;
+}
+
+
+.gri1{width:900px;
+height:100px;
+background-color:#e7e9eb;
+border-radius:10px 10px 10px 10px;
+margin-bottom:50px;
+position:relative;
+margin-bottom:-0px;}
+
+.beyazuc {width:780px;
+margin-left:47px;
+background-color:fff;
+height:60px;
+position:relative;
+top:20px;
+border-left:solid 3px #04aa6d;
+line-height:60px;
+padding-left:20px;
+font-size:18px;
+}
+
+
+.lacivert{width:900px;
+height:300px;
+background-color:#6A7CE3;
+float:left;
+position:absolute;}
+
+.gri2{width:400px;
+height:250px;
+background-color:#e7e9eb;
+float:left;
+position:absolute;
+top:25px;
+text-align:center;}
+
+
+
+.sari3{width:820px;
+height:400px;
+background-color:#ffffcc;
+margin-top:30px;
+padding:40px;}
+
+.sari3 p{margin:0;
+padding:0;}
+
+.otuzpx{font-size:30px;
+margin:0;
+margin-top:30px;
+margin-bottom:20px;}
+
+
+.table{width:900px;
+
+}
+
+.table tr{background-color:#CCC;
+font-size:19px;
+text-indent:20px;
+}
+
+.table td{border-bottom:solid 2px #878787;
+margin:0;
+height:50px;}
+
+.table tr a{color:#000000;
+text-decoration:none;
+display:block;
+
+}
+
+.table tr:hover{background-color:#878787;
+cursor:pointer;
+}
+
+
+.gri img{margin-left:225px;
+margin-top:100px;}
+
+#buton{width:250px;
+height:70px;
+font-size:18px;
+background-color:#5BB378;
+border-radius:10px;
+color:#fff;
+text-align:center;
+line-height:70px;
+margin-left:30px;
+margin-top:10px;}
+
+#buton:hover{background-color:#457C4A;}
+
+#buton a{color:#000000;
+display:block;
+cursor:pointer;
+color:#fff;
+text-decoration:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

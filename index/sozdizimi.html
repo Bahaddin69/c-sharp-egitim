@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="../stil/stil.css">
+  <meta charset="utf-8">
+  <title>C# Sözdizimi</title>
+</head>
+<body>
+  <div class="solmenu">
+    <ul>
+      <li class="baslik">C# Öğretici</li>
+      <li><a href="egitim.html">C# GİRİŞ</a></li>
+      <li><a href="giris.html">C# Giriş</a></li>
+      <li><a href="kullanmayabaslama.html">C# Kullanmaya Başlama</a></li>
+      <li><a href="sozdizimi.html">C# Sözdizimi</a></li>
+      <li><a href="cikisi.html">C# Çıkışı</a></li>
+      <li><a href="tartismalari.html">C# Tartışmaları</a></li>
+      <li><a href="degiskenleri.html">C# Değişkenleri</a></li>
+      <li><a href="veriturleri.html">C# Veri Türleri</a></li>
+      <li><a href="tipidokum.html">C# Tipi Döküm</a></li>
+      <li><a href="kullanicigirisi.html">C# Kullanıcı Girişi</a></li>
+      <li><a href="islecleri.html">C# İşleçleri</a></li>
+      <li><a href="matematik.html">C# Matematik</a></li>
+      <li><a href="dizeleri.html">C# Dizeleri</a></li>
+      <li><a href="booleans.html">C# Booleans</a></li>
+      <li><a href="egerbaska.html">C# Eğer...Başka</a></li>
+      <li><a href="anahtari.html">C# Anahtarı</a></li>
+      <li><a href="dongusirasinda.html">C# Döngü Sırasında</a></li>
+      <li><a href="donguicin.html">C# Döngü İçin</a></li>
+      <li><a href="breakcontinue.html">C# Break/Continue</a></li>
+      <li><a href="Dizileri.html">C# Dizileri</a></li>
+      <li class="baslik">C# Yöntemler</li>
+      <li><a href="yontemleri.html">C# Yöntemleri</a></li>
+      <li><a href="yontemparametreleri.html">C# Yöntem Parametreleri</a></li>
+      <li><a href="yontemiasiriyukleme.html">C# Yöntemi Aşırı Yükleme</a></li>
+      <li class="baslik">C# Sınıf</li>
+      <li><a href="oop">C# OOP</a></li>
+      <li><a href="siniflarnesneleri.html">C# Sınıfları/Nesneleri</a></li>
+      <li><a href="sinifuyeleri.html">C# Sınıfı Üyeleri</a></li>
+      <li><a href="olusturuculari.html">C# Oluşturucular</a></li>
+      <li><a href="erisimdegistiriceleri.html">C# Erişim Değiştiriceleri</a></li>
+      <li><a href="ozellikler.html">C# Özellikleri</a></li>
+      <li><a href="devralma.html">C# Devralma</a></li>
+      <li><a href="poliforfizm.html">C# Poliforfizm</a></li>
+      <li><a href="soyutlama.html">C# Soyutlama</a></li>
+      <li><a href="arabirimi.html">C# Arabirimi</a></li>
+      <li><a href="enumlari.html">C# Enumları</a></li>
+      <li><a href="dosyalari.html">C# Dosyaları</a></li>
+      <li><a href="ozeldurumları.html">C# Özel Durumları</a></li>
+      <li class="baslik">C# Nasıl Yapılır?</li>
+      <li><a href="ikisayiekle.html">İki Sayı Ekle </a></li>
+      <li class="baslik">C# Örnekleri</li>
+      <li><a href="ornekleri.html">C# Örnekleri</a></li>
+      <li><a href="derleyicisi.html">C# Derleyicisi</a></li>
+      <li><a href="egzersizleri.html">C# Egzersizleri</a></li>
+      <li><a href="testi.html">C# Testi</a></li>
+      <li><a href="sertifikasi.html">C# Sertifikası</a></li>
+    </ul>
+  </div>
+  <div id="menu">
+    <ul>
+      <li><a href="index.html">AnaSayfa</a></li>
+      <li><a href="iletisim.html">İletişim</a></li>
+    </ul>
+  </div>
+  <div class="icerik">
+    <p style="font-size:40px;">C# Sözdizimi</p>
+    <div class="sonraki"><a href="cikisi.html">Sonraki</a></div>
+    <div class="onceki"><a href="kullanmayabaslama.html">Önceki</a></div>
+    <div class="border" style="margin-top:90px;"></div>
+    <p style="font-size:30px;">C# Sözdizimi</p>
+    <p class="yaziboyut">Önceki bölümde, Program.cs adlı bir C# dosyası oluşturduk ve ekrana "Merhaba Dünya" yazdırmak
+      için<br> aşağıdaki kodu kullandık:</p>
+    <div class="gri" style="margin-top:-75px; height:570px; width:900px;">
+      <p class="gribaslik" style="text-indent:18px;">Örnek</p>
+      <div class="beyaz" style="width:760px;"><span style="color:#3fb2ec;">using</span> <span
+          style="color:#4d4d4d;">System;</span><br>
+        <span style="color:#3fb2ec;">namespace</span> <span style="color:#4d4d4d;">HelloWorld</span><br>
+        <span style="color:#999999;">{</span><br>
+        <span style="color:#3fb2ec;">class</span> <span style="color:#e86668;">Program</span><br>
+        <span style="color:#999999;">{</span><br>
+        <span style="color:#3fb2ec">static void</span> <span style="color:#e86668;">Main</span><span
+          style="color:#999999">(</span><span style="color:#3fb2ec;">string</span><span style="color:#999999;">[]</span>
+        args<span style="color:#999999;">)</span><br>
+        <span style="color:#999999;">{</span><br>
+        Console.<span style="color:#e86668">WriteLine</span><span style="color:#999999;">(</span><span
+          style="color:#a8a500;">"Hello World!"</span><span style="color:#999999;"></span><span
+            style="color:#999999;">)</span><span style="color:#999999;">;</span> <br>
+          <span style="color:#999999;">{</span><br>
+          <span style="color:#999999;">{</span><br>
+          <span style="color:#999999;">{</span><br>
+      </div>
+      <p style="font-size:22px; text-indent:40px;">Sonuç</p>
+      <div id="siyah" style="width:785px;">Hello Word</div>
+    </div>
+    <p style="font-size:25px; text-indent:15px;">Örnek açıklandı</p>
+    <p class="yaziboyut" style="word-spacing:2px;"><strong>Satır 1:</strong> araçlar ad alanındaki sınıfları
+      kullanabileceğimizi.<span style="color:#BC6567;">using SystemSystem</span></p>
+    <p><strong>Satır 2</strong>: Boş bir satır. C# beyaz alanı yok sayar. Ancak, birden çok satır kodu daha okunabilir
+      hale getirir.</p>
+    <p class="yaziboyut" style="word-spacing:2px;"><strong>Satır 3:</strong> kodunuzu düzenlemek için kullanılır ve
+      sınıflar ve diğer ad alanları için bir kapsayıcıdır.namespace</p>
+    <p class="yaziboyut" style="word-spacing:2px;"><strong>Satır 4:</strong> Kıvırcık parantezler bir kod bloğunun
+      başlangıcını ve sonunu işaretler.{}</p>
+    <p class="yaziboyut" style="word-spacing:2px; line-height:25px;"><strong>Satır 5:</strong> bir programınıza
+      işlevsellik getiren veri ve yöntemler için kapsayıcı. C#'ta çalışan her kod satırı bir sınıfın<br> içinde
+      olmalıdır. Örneğimizde, sınıfa Program adını verdik.class</p>
+    <div class="sari" style="width:800px;">Nasıl çalıştığını ve çalıştığını anlamadıysanız endişelenmeyin. Sadece
+      programınızda (neredeyse) her zaman görünen bir şey olarak düşünün ve daha sonraki bir bölümde onlar hakkında daha
+      fazla bilgi edineceksiniz.using Systemnamespaceclass</div>
+    <p class="yaziboyut" style="line-height:25px;">Satır 7: C# programında her zaman görünen başka bir şey, yöntemi.
+      Kıvırcık parantezlerinin içindeki herhangi bir kod<br> yürütülür. Ana kelimelerden önce ve sonra anahtar
+      kelimeleri anlamanız gerekmez. Şunları elde edeceksiniz: Bu öğreticiyi<br> okurken onları azar azar tanıyın.Main{}
+    </p>
+    <p class="yaziboyut" style="line-height:25px;">Satır 9: ad alanının bir sınıfıdır ve metin çıktısı/baskısı için
+      kullanılan bir yönteme sahiptir. Örneğimizde "Merhaba Dünya!" <br>çıktısı verecektir. ConsoleSystemWriteLine()</p>
+    <p class="yaziboyut" style="line-height:25px;">Satırı atlarsanız, metni yazdırmak / çıkarmak için yazmanız
+      gerekir.using <br>SystemSystem.Console.WriteLine()</p>
+    <p class="yaziboyut"><strong>Not:</strong> Her C# deyimi noktalı virgülle biter.;</p>
+    <p class="yaziboyut"><strong>Not:</strong> C# büyük/küçük harfe duyarlıdır: "MyClass" ve "myclass" farklı anlam.</p>
+    <p class="yaziboyut" style="line-height:25px;"><strong>Not:</strong> Java'dan farklı olarak, C# dosyasının adının
+      sınıf adıyla eşleşmesi gerekmez, ancak genellikle (daha iyi bir <br>organizasyon için) eşleşir. Dosyayı
+      kaydederken, uygun bir ad kullanarak kaydedin ve sonuna ".cs" ekleyin. dosya adı.<br> Yukarıdaki örneği
+      bilgisayarınızda çalıştırmak için, C# düzgün yüklenmiş: C#'ın nasıl <a href="kullanmayabaslama.html">yükleneceğini
+        öğrenmek için<br> Başlarken Bölümüne gidin.</a> Çıktı şöyle olmalıdır:</p>
+    <div id="siyah" style="width:870px; margin-left:0px; border:solid 15px #e7e9eb">Hello Word</div>
+    <div class="border" style="margin-top:20px;"></div>
+    <div class="sonraki" style="margin-top:50px;"><a href="cikisi.html">Sonraki</a></div>
+    <div class="onceki" style="margin-top:50px;"><a href="kullanmayabaslama.html">Önceki</a></div>
+  </div>
+</body>
+</html>
